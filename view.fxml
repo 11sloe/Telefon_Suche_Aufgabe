@@ -41,12 +41,12 @@
                <children>
                   <Label prefHeight="31.0" text="Name" />
                   <TextField fx:id="txtName" onKeyPressed="#handleTxtEinfuegen" GridPane.columnIndex="1" />
+                  <TextField fx:id="txtNummer" onKeyPressed="#handleTxtEinfuegen" GridPane.columnIndex="1" GridPane.rowIndex="1" />
                   <Button mnemonicParsing="false" onAction="#einfuegen" text="einfuegen" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="1">
                      <GridPane.margin>
                         <Insets left="10.0" />
                      </GridPane.margin></Button>
                   <Label prefHeight="31.0" text="Nummer" GridPane.rowIndex="1" />
-                  <TextField fx:id="txtNummer" onKeyPressed="#handleTxtEinfuegen" GridPane.columnIndex="1" GridPane.rowIndex="1" />
                </children>
             </GridPane>
             <Label fx:id="lblAufruf" layoutX="292.0" layoutY="258.0" prefHeight="17.0" prefWidth="201.0" />
